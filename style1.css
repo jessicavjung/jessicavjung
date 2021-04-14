@@ -1,0 +1,182 @@
+
+
+
+/* index/pagina principal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.chapche {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 'Permanent Marker', cursive; 
+}
+
+
+
+
+
+
+header{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    color: black bold ;
+    text-decoration: cornflowerblue;
+}
+body{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url(ojo_roy_cerrado.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+
+
+/* .div{
+    transform: rotateY(45deg)
+} */
+
+
+
+.bg-dark {
+    background-color: transparent !important;
+    top: 0%;
+    z-index: 5;
+    right: 0;
+    left: 0;
+    position: fixed;
+  }
+
+
+  
+
+h1{ 
+    padding: 12px 50px 7px 80px;
+
+}
+
+ion-icon {
+    font-size: 64px;
+  }
+
+/* css de contact */
+.bg {
+    width: 3000px;
+    height: auto;
+    min-height: 500vh;
+    background-image: url(ojo_roy_abierto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.content {
+    margin-top: 20%
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.InputStyle {
+    border-radius: 25px;
+    border: solid 1px white;
+    background: transparent;
+    width: 300px;
+    padding: 10px 20px
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: white
+}
+
+.social-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 47%
+}
+
+i {
+    padding: 5px;
+    color: white
+}
+
+input,
+input:focus {
+    border: solid 1px white;
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: nones;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.secondLine {
+    font-family:'Permanent Marker', cursive; ;
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 15%;
+    color: white
+}
+
+.firstLine {
+    font-size: 30px;
+    color: white
+}
+
+@media only screen and (max-width: 600px) {
+    .firstLine {
+        font-size: 20px
+    }
+}
+
+/* about */
+
+/* .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  } */
+
+  .img1{
+      width: 50px;
+      height: auto;
+  }
+
+  .container1{
+      height: 800px;
+
+  }
+
+  .services{
+    font-family:'Permanent Marker', cursive; ;
+    font-weight: 350;
+    font-size: 15px;
+  }
+  
+
